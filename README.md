@@ -1,0 +1,2 @@
+# GSYVideoPlayerSupport
+基于CarGuo/GSYVideoPlayer调整了结构
