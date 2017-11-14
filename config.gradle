@@ -1,0 +1,33 @@
+ext {
+    android =
+            [
+                    versionCode      : 1,
+                    versionName      : "2.1.1.0",
+
+                    compileSdkVersion: 26,
+                    buildToolsVersion: "26.0.2",
+                    minSdkVersion    : 16,
+                    targetSdkVersion : 26,
+                    supportVersion   : "26.1.0",
+            ]
+
+    jcenter =
+            [
+                    //项目名称
+                    name       : "GSYVideoPlayerSupport",
+                    groupId    : "com.dyhdyh.support",
+                    //项目地址
+                    siteUrl    : "https://github.com/dengyuhan/GSYVideoPlayerSupport",
+                    //项目git地址
+                    gitUrl     : "https://github.com/dengyuhan/GSYVideoPlayerSupport.git",
+                    //项目描述
+                    description: "基于CarGuo/GSYVideoPlayer的一些扩展",
+                    license: "Apache-2.0",
+                    //开发者的一些基本信息
+                    authorId   : "dengyuhan",
+                    authorName : "dengyuhan",
+                    authorEmail: "22309946@qq.com",
+            ]
+
+
+}
